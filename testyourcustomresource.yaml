@@ -1,0 +1,8 @@
+apiVersion: arpan.example.com/v1alpha1
+kind: TestPod
+metadata:
+  name: testcross
+spec:
+  containers:
+  - podImage: nginx:alpine
+    podName: nginx-crossplane

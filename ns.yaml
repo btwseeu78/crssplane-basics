@@ -1,0 +1,19 @@
+apiVersion: kubernetes.crossplane.io/v1alpha1
+kind: Object
+metadata:
+  name: samplenamespace
+spec:
+  forProvider:
+    manifest:
+      apiVersion: v1
+      kind: Pod
+      metadata:
+        namespace: default
+        labels:
+          example: "true"
+      spec:
+        containers:
+        - name: podtest
+          image: nginx:alpine
+  providerConfigRef:
+    name: kubernetes-provider
