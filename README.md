@@ -38,8 +38,8 @@ testcross-fsknp    True     True    38m
 
 ```
 
-*** false is danger,if it is not synced check provider first then describe the object to see fild issues ***
+***false is danger,if it is not synced check provider first then describe the object to see fild issues***
 
-*** if you see object is not generated then you have a claim issue check the names. ***
+***if you see object is not generated then you have a claim issue check the names.***
 
 
